@@ -1,7 +1,7 @@
 Here’s the code you can directly paste into your `README.md` file:
 
 ```markdown
-# Lab Report OCR API
+# Bajaj OCR
 
 This project is a FastAPI-based service designed to extract lab test data from medical reports using OCR (Optical Character Recognition). The API processes uploaded image files of lab reports and extracts structured data like test names, values, reference ranges, and whether the values are out of range.
 
@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/lab-report-ocr-api.git
-   cd lab-report-ocr-api
+   git clone https://github.com/your-username/Bajaj_Prashuk.git
+   cd Bajaj_Prashuk
    ```
 
 2. Install dependencies:
@@ -111,35 +111,28 @@ curl -X POST "http://localhost:8000/get-lab-tests" -F "file=@path_to_image.jpg"
   "is_success": true,
   "data": [
     {
-      "test_name": "ISO : 9001-2008",
-      "test_value": "9001.0",
-      "bio_reference_range": "2008-1",
+      "test_name": "ASTER MIMS HOSPITAL THUMBETHODIKA SSS APTT",
+      "test_value": "66.9",
+      "bio_reference_range": "126-36",
+      "test_unit": "%",
+      "lab_test_out_of_range": true
+    },
+    {
+      "test_name": "CONSULTANT : DR. SABARENATH MENON DOA EI DO) IY CONTROL",
+      "test_value": "30.0",
+      "bio_reference_range": "5.33-10",
       "test_unit": "",
       "lab_test_out_of_range": true
     },
     {
-      "test_name": "101, 102, 107",
-      "test_value": "101.0",
-      "bio_reference_range": "102-107",
-      "test_unit": "",
-      "lab_test_out_of_range": true
-    },
-    {
-      "test_name": "HA",
-      "test_value": "223.0",
-      "bio_reference_range": "391503-25",
-      "test_unit": "",
-      "lab_test_out_of_range": true
-    },
-    {
-      "test_name": "_ PATIENT ID",
-      "test_value": "16.0",
-      "bio_reference_range": "13-21",
+      "test_name": "DAR - CELL) VOLUME (MCV) MEAN PLATELET",
+      "test_value": "8.7",
+      "bio_reference_range": "7.44-10.26",
       "test_unit": "",
       "lab_test_out_of_range": false
     }
-  ]
-}
+  
+
 ```
 
 ### Error Response
