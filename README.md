@@ -88,8 +88,9 @@ pip install -r requirements.txt
 The server will start at `http://localhost:8000`.
 
 ---
+You can also access the interactive API documentation at http://localhost:8000/docs
+## How to Test http://localhost:8000/docs
 
-## How to Test
 
 ### 1. Using `curl`:
 ```bash
