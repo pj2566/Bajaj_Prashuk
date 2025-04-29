@@ -193,5 +193,3 @@ Feel free to contribute, suggest features, or report bugs by opening an issue or
 - The system currently identifies test names, values, units, and ranges. However, in some cases, further fine-tuning may be necessary based on the format of your lab reports.
 
 ```
-
-You can copy and paste this directly into your `README.md` file! Let me know if you need any further changes.
