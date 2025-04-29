@@ -110,24 +110,52 @@ curl -X POST "http://localhost:8000/get-lab-tests" -F "file=@path_to_image.jpg"
 {
   "is_success": true,
   "data": [
-    {
-      "test_name": "ASTER MIMS HOSPITAL THUMBETHODIKA SSS APTT",
-      "test_value": "66.9",
-      "bio_reference_range": "126-36",
-      "test_unit": "%",
-      "lab_test_out_of_range": true
+     {
+      "test_name": "TESTE = TYPHIDOT TEST (ANTI BODY) GM/DL.",
+      "test_value": "3.2",
+      "bio_reference_range": "4.5",
+      "test_unit": "",
+      "lab_test_out_of_range": false
     },
     {
-      "test_name": "CONSULTANT : DR. SABARENATH MENON DOA EI DO) IY CONTROL",
-      "test_value": "30.0",
-      "bio_reference_range": "5.33-10",
+      "test_name": "IGG ANTIBODIES TO S. TYPHI O&H GM/DL.",
+      "test_value": "2.6",
+      "bio_reference_range": "3.3",
+      "test_unit": "",
+      "lab_test_out_of_range": false
+    },
+    {
+      "test_name": "IGM ANTIBODIES TO S. TYPHI O&H",
+      "test_value": "1.5",
+      "bio_reference_range": "2.5-1",
       "test_unit": "",
       "lab_test_out_of_range": true
     },
     {
-      "test_name": "DAR - CELL) VOLUME (MCV) MEAN PLATELET",
-      "test_value": "8.7",
-      "bio_reference_range": "7.44-10.26",
+      "test_name": "URINE EXAMINATION M EA/LITRE.",
+      "test_value": "135.0",
+      "bio_reference_range": "155",
+      "test_unit": "",
+      "lab_test_out_of_range": false
+    },
+    {
+      "test_name": "PHYSICAL EXAMINATION M EQ/LITRE.",
+      "test_value": "3.5",
+      "bio_reference_range": "5.5",
+      "test_unit": "",
+      "lab_test_out_of_range": false
+    },
+    {
+      "test_name": "VOLUME MG/DL.",
+      "test_value": "1.5",
+      "bio_reference_range": "6.0",
+      "test_unit": "",
+      "lab_test_out_of_range": false
+    },
+    {
+      "test_name": "COLOUR /H.P.F.",
+      "test_value": "2.0",
+      "bio_reference_range": "3",
       "test_unit": "",
       "lab_test_out_of_range": false
     }
